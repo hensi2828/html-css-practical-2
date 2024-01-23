@@ -1,0 +1,269 @@
+/* Dasktop screeen */
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+  
+  }
+
+  .first {
+    padding: 10px;
+    height: 748px;
+    background-color: #666666;
+  }
+  
+  .second {
+    margin: 13px 0;
+    height: 1106px;
+    display: flex;
+  }
+  
+  .left {
+    width: 60%;
+    height: 1106px;
+    background-color: aqua;
+    padding: 10px;
+  }
+  
+  .right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .r1 {
+    background-color: #B0E47C;
+    padding: 10px;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    height: 33.33%;
+  }
+  
+  .r2 {
+    background-color: #B0E47C;
+    padding: 10px;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    height: 33.33%;
+  
+  }
+  
+  .r3 {
+    background-color: #B0E47C;
+    padding: 10px;
+    margin-left: 12px;
+    height: 34%;
+  
+  }
+  
+  .third {
+    padding: 70px;
+    background-color: #E9D945;
+    height: 702px;
+    display: flex;
+  }
+  
+  .one {
+    width: 510px;
+    height: 535px;
+    background: #FFFFFF;
+    margin: 10px;
+  
+  }
+  
+  .two {
+    width: 510px;
+    height: 535px;
+    background: #FFFFFF;
+    margin: 10px;
+  
+  }
+  
+  .four {
+    display: flex;
+  }
+  
+  .f1 {
+    width: 900px;
+    height: 324px;
+    background: #C4C4C4;
+    margin: 10px 10px 10px 0;
+  }
+  
+  .f2 {
+    width: 900px;
+    height: 324px;
+    background: #C4C4C4;
+    margin: 10px 0 10px 10px;
+  }
+  
+  .five {
+    height: 106px;
+    display: flex;
+    background: #87EBB5;
+  }
+
+  
+  /* Tablate Screen */
+
+@media screen and (max-width: 800px) {
+  
+    .first {
+        height: 340px;
+    }
+  
+    .second{
+       display: flex;
+       flex-direction: column;
+       height: 300%;
+    }
+  
+    .left{
+        width: 100%;
+        height: 200px;
+    }
+  
+    .right{
+        width: 100%;
+        flex-direction: row;
+    }
+  
+    .r1{
+      width: 33.33%;
+      height: 150px;
+      margin: 10px 10px 0 0px;
+    }
+    .r2{
+      width: 33.33%;
+      height: 150px;
+      margin: 10px 10px 0 0px;
+    }
+    .r3{
+      width: 33.33%;
+      height: 150px;
+      margin: 10px 0px 0;
+    }
+  
+    .third{
+      height: 300px;
+      padding: 10px;
+      dis
+    }
+  
+    .one {
+      height: 260px;
+  
+    }
+  
+    .two {
+      height: 260px;
+  
+    }
+  
+    .four {
+      flex-direction: row;
+    }
+  
+    .f1{
+      height:150px;
+    }
+  
+    .f2{
+      height: 150px;
+    }
+  
+    .five{
+      flex-direction: column;
+      height: 70px;
+    }
+  
+  }
+  
+  
+  /* Mobile screen */
+
+  @media screen and (max-width: 400px) {
+  
+    .first {
+        height: 170px;
+    }
+
+    .second{
+        display: flex;
+        flex-direction: column;
+        height: 200%;
+     }
+
+     .left{
+        width: 100%;
+        height: 140px;
+    }
+    
+    .right{
+        width: 100%;
+        flex-wrap: wrap;
+        padding: auto;
+
+    }
+  
+    .r1{
+       width: 47%;
+        height: 100px; 
+        flex-wrap: wrap;  
+    }
+   
+    .r2{
+      width: 47%;
+      height: 100px;
+      flex-wrap: wrap;  
+      margin: 10px 0px 10px 10px;
+    }
+    
+    .r3{
+        flex-direction: row;
+        height: 80px;
+        width: 100%;
+    }
+
+    .third{
+        height: 250px;
+        padding: 10px;
+        display: block;
+      }
+    
+      .one {
+        height: 100px;
+        width: auto;
+      }
+    
+      .two {
+        height: 100px;
+        width: auto;
+      }
+
+      .four {
+        display: block;
+      }
+    
+      .f1{
+        height:100px;
+        width: 100%;
+      }
+    
+      .f2{
+        height: 100px;
+        width: 100%;
+        margin: auto;
+      }
+    
+      .five{
+        height: 60px;
+        margin-top: 10px;
+      }  
+  }
